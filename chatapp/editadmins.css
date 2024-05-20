@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: whitesmoke;
+    padding: 0 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #313150;
+}
+
+h2 {
+    color: #313150;
+}
+
+.form form {
+    margin: 20px 0;
+}
+
+.form form .error-text {
+    color: rgb(30, 29, 29);
+    padding: 8px 10px;
+    border-radius: 5px;
+    background: grey;
+    border: 1px solid #f5c6cb;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.form form .field {
+    position: relative;
+}
+
+.form form .field label {
+    color: purple;
+    margin-bottom: 2px;
+}
+
+.form form .input input {
+    width: 25%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form form .field input {
+    color: purple;
+    outline: none;
+}
+
+
+.form form .button input {
+    height: 30px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    background: #313150;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.form form .field i {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.form form .field i.active::before {
+    color: #333;
+    content: "\f070";
+}
+
+.back-icon{
+    color: #313150;
+  }
